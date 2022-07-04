@@ -3,13 +3,13 @@
 
 Console.WriteLine("Из введенного пользователем массива строк сформируем массив из строк, длина которых меньше либо равна 3 символа");
 Console.WriteLine();
-int EnterUserData(string nameUserData)
+int UserData(string nameUserData)
 {
     Console.Write($"{nameUserData}");
     return Convert.ToInt32(Console.ReadLine());
 }
 
-int lenghtArray = EnterUserData("Укажите количество элементов-строк в массиве: ");
+int lenghtArray = UserData("Укажите количество элементов-строк в массиве: ");
 Console.WriteLine();
 
 Console.WriteLine();
